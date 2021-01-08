@@ -10,5 +10,4 @@ Place files into tftpboot in /var/lib/docker/volumes/tftpd-lab/_data on the pare
 
 Tftp to your parent host's IP address.
 
-tftp get will work
-tftp put will not
+Tftp get will work. Tftp put will not.
