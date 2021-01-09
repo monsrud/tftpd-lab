@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.12
 
 RUN apk add --no-cache tftp-hpa \
 && mkdir -p -m 0777 /tftpboot
